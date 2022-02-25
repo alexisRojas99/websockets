@@ -15,7 +15,7 @@ const server = app.listen(app.get("port"), () => {
   console.log("Server online http://localhost:" + app.get("port"));
 });
 
-// websockets init
+// websockets init 
 const io = SocketIO(server);
 
 // websockets
